@@ -1,0 +1,73 @@
+/* font-family: 'Montserrat', sans-serif; */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #F6F6F6;
+}
+.header {
+    background: url('../image/mainbg.jpg')
+}
+.header a {
+    color: #000;
+}
+.navbar {
+    background: #fff;
+    height: 60px;
+    width: 1440px;
+    border-radius: 5px;   
+    display: flex;
+    color: #fff;
+}
+.header li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header li {
+    margin-right: 50px;
+} 
+.subcontainer {
+    margin-top: 100px;
+    background: url('../image/maincontainer.jpg');
+    width: 850px;
+    height: 400px;
+    
+}
+.h1Main {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.h4text {
+    width: 780px;
+    height: 180px;
+    font-size: 16px;
+    margin-top: 75px;
+    padding-left: 40px;
+}
+.h4logo {
+    margin-top: -50px;
+    font-size: 16px;
+    padding-left: 500px;
+}
+.button {
+    text-transform: uppercase;
+    display: block;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 10px;
+	width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: -45px;
+    background: #5956E9;
+    color: #fff;
+}
+.platform{
+    background: url('../image/platformbg.png')
+}
